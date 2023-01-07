@@ -1,0 +1,178 @@
+html {
+    background-color: #C1B2AB;
+    color: #92374D;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #8C5383;
+}
+
+/* Hero */
+
+#hero h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.hero-container {
+    background-color: #8C5383;
+    color: #C1B2AB;
+    margin: auto;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    padding: 6rem;
+    border-radius: 1rem;
+}
+
+.hero-container h2 {
+    font-size: 2.5rem;
+}
+
+input {
+    font-family: 'Zilla Slab', serif;
+    font-size: 2rem;
+    background-color: #C1B2AB;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+    /* events */
+
+#events h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.park-run {
+    padding: 2rem;
+}
+
+.park-run img {
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.park-run p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+.park-run p span {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 700px) {
+    .events-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+}
+
+/* references */
+
+#references div h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.ref {
+    max-width: 60rem;
+    background-color: #92374D;
+    color: #C1B2AB;
+    margin: 4rem auto;
+    font-size: 1.8rem;
+    padding: 1rem;
+    font-family: 'Zilla Slab', serif;
+    text-align: justify;
+}
+
+.no2 {
+    background-color: #8C5383;
+}
+
+/* partners */
+
+#partners h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.partners-container img {
+    max-width: 20rem;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .partners-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    gap: 3rem;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
